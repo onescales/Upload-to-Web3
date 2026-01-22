@@ -12,7 +12,7 @@
 
 ## Open Source
 
-This is an **open source project** released under the MIT License with Attribution. You're free to use, modify, and distribute this code for personal or commercial purposes. See the [LICENSE](./LICENSE) file for full details.
+This is an **open source project** released under the MIT License with Attribution. You're free to use, modify, and distribute this code for personal or commercial purposes. See the [LICENSE](https://github.com/onescales/Upload-to-Web3/blob/main/LICENSE) file for full details.
 
 **Code Repository:** [https://github.com/onescales/Upload-to-Web3](https://github.com/onescales/Upload-to-Web3)
 
