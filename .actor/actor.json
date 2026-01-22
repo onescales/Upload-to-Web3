@@ -1,0 +1,56 @@
+{
+  "actorSpecification": 1,
+  "name": "upload-to-web3",
+  "title": "Upload to Web3",
+  "tag": ["latest"],
+  "description": "Upload files to IPFS (Web3) using Pinata API. Upload any file type (images, PDFs, documents) to decentralized storage with permanent, censorship-resistant URLs.",
+  "version": "1.0.0",
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 2048,
+  "defaultMemoryMbytes": 512,
+  "input": "./input_schema.json",
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "title": "Pinned Files",
+      "description": "List of all files pinned to IPFS with Web3 URLs",
+      "views": {
+        "overview": {
+          "title": "Overview",
+          "description": "Overview of pinned files",
+          "transformation": {
+            "fields": [
+              "url",
+              "cid",
+              "web3Url",
+              "status"
+            ]
+          },
+          "display": {
+            "component": "table",
+            "properties": {
+              "url": {
+                "label": "Original URL",
+                "format": "link"
+              },
+              "cid": {
+                "label": "CID",
+                "format": "text"
+              },
+              "web3Url": {
+                "label": "Web3 URL",
+                "format": "link"
+              },
+              "status": {
+                "label": "Status",
+                "format": "text"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "readme": "./README.md",
+  "output": "./output_schema.json"
+}
