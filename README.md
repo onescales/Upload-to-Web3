@@ -1,7 +1,7 @@
 # Upload to Web3
 
 ## Description
-**Bulk Upload to Web3** is an Apify app that uploads files to IPFS (InterPlanetary File System) using the Pinata API. Upload any type of file - images, PDFs, documents, videos - to decentralized Web3 storage and get permanent, censorship-resistant URLs.
+**Upload to Web3** is an Apify app that uploads files to IPFS (InterPlanetary File System) using the Pinata API. Upload any type of file - images, PDFs, documents, videos - to decentralized Web3 storage and get permanent, censorship-resistant URLs.
 
 **Key Features:**
 - **Universal File Support**: Pin any file type (images, PDFs, documents, videos, archives)
