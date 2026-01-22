@@ -14,7 +14,7 @@
 
 This is an **open source project** released under the MIT License with Attribution. You're free to use, modify, and distribute this code for personal or commercial purposes. See the [LICENSE](https://github.com/onescales/Upload-to-Web3/blob/main/LICENSE) file for full details.
 
-**Code Repository:** [https://apify.com/onescales/upload-to-web3](https://github.com/onescales/Upload-to-Web3?fpr=s9de8)
+**Code Repository:** [https://github.com/onescales/Upload-to-Web3](https://github.com/onescales/Upload-to-Web3)
 
 This software is provided "as is" without warranties. Use at your own risk and enjoy! 🚀
 
@@ -198,7 +198,7 @@ By proceeding to use this actor and/or the open source code, you confirm that yo
 
 ## / Try it Out / Demo
 
-You can use the open source code to upload to your Apify account or use https://apify.com/onescales/upload-to-web3
+You can use the open source code to upload to your Apify account or use [https://apify.com/onescales/upload-to-web3](https://apify.com/onescales/upload-to-web3?fpr=s9de8)
 
 ## Need Help?
 
