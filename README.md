@@ -14,7 +14,7 @@
 
 This is an **open source project** released under the MIT License with Attribution. You're free to use, modify, and distribute this code for personal or commercial purposes. See the [LICENSE](https://github.com/onescales/Upload-to-Web3/blob/main/LICENSE) file for full details.
 
-**Code Repository:** [https://apify.com/onescales/upload-to-web3?fpr=s9de8](https://github.com/onescales/Upload-to-Web3)
+**Code Repository:** [https://apify.com/onescales/upload-to-web3](https://github.com/onescales/Upload-to-Web3?fpr=s9de8)
 
 This software is provided "as is" without warranties. Use at your own risk and enjoy! 🚀
 
