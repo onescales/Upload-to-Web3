@@ -194,7 +194,7 @@ By using this app, you acknowledge and agree that:
 
 **Privacy Notice**: Do not upload personal information, sensitive data, private documents, or confidential materials unless you fully understand the implications of permanent public storage.
 
-By proceeding to use this actor, you confirm that you have read, understood, and agree to these terms.
+By proceeding to use this actor and/or the open source code, you confirm that you have read, understood, and agree to these terms, abide by all laws and you understand you are fully responsible for using this actor and/or code.
 
 ## / Try it Out / Demo
 
