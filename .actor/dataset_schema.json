@@ -1,0 +1,55 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "fields": {
+    "url": {
+      "type": "string",
+      "description": "Original URL of the file that was pinned"
+    },
+    "cid": {
+      "type": "string",
+      "description": "IPFS Content Identifier (CID) - the unique cryptographic hash of the pinned file"
+    },
+    "web3Url": {
+      "type": "string",
+      "description": "Web3 IPFS gateway URL for accessing the pinned file"
+    },
+    "status": {
+      "type": "string",
+      "description": "Status of the pin operation (success or error with reason)"
+    }
+  },
+  "views": {
+    "overview": {
+      "title": "Pinned Files Overview",
+      "transformation": {
+        "fields": [
+          "url",
+          "cid",
+          "web3Url",
+          "status"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "url": {
+            "label": "Original URL",
+            "format": "link"
+          },
+          "cid": {
+            "label": "CID",
+            "format": "text"
+          },
+          "web3Url": {
+            "label": "Web3 URL",
+            "format": "link"
+          },
+          "status": {
+            "label": "Status",
+            "format": "text"
+          }
+        }
+      }
+    }
+  }
+}
