@@ -78,7 +78,8 @@ This software is provided "as is" without warranties. Use at your own risk and e
       "url": "https://example.com/video.mp4"
     }
   ],
-  "pinataApiKey": "eyJhgh8bGciOiJIUzI1XVCJ9..."
+  "pinataApiKey": "eyJhgh8bGciOiJIUzI1XVCJ9...",
+  "privateExpiration": 2592000
 }
 ```
 
