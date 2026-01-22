@@ -1,0 +1,13 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Upload to Web3 Output",
+  "description": "Files pinned to IPFS with Web3 URLs and status",
+  "properties": {
+    "pinnedFiles": {
+      "type": "string",
+      "title": "Pinned Files",
+      "description": "All pinned files with metadata and Web3 URLs",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    }
+  }
+}

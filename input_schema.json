@@ -1,0 +1,62 @@
+{
+  "title": "Upload to Web3 Input",
+  "description": "Specify a URL (image, file, PDF, etc.) and upload to IPFS (Web3) via the Pinata pinning service. You must have a Pinata account (https://pinata.cloud) and you need to get the API key at https://app.pinata.cloud/developers/api-keys",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "startUrls": {
+      "title": "URL(s)",
+      "type": "array",
+      "description": "Enter one or more URLs to pin to IPFS. These can be direct links to images, PDFs, documents, or any other files. Each URL will be downloaded and pinned to the Web3 storage network via Pinata.",
+      "editor": "requestListSources",
+      "prefill": [
+        {
+          "url": "https://onescales.com/cdn/shop/articles/Screenshot_2025-11-24_at_3.29.28_PM.png?v=1763969599"
+        }
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "title": "URL",
+            "description": "Direct URL to the file you want to pin to IPFS",
+            "maxLength": 700
+          }
+        },
+        "required": ["url"]
+      }
+    },
+    "pinataApiKey": {
+      "title": "Pinata API Key (JWT)",
+      "type": "string",
+      "description": "Your Pinata JWT token. Get it from https://app.pinata.cloud/developers/api-keys - Click 'New Key', set permissions, and copy the JWT token.",
+      "editor": "textfield",
+      "isSecret": true,
+      "example": "eyJ9..."
+    },
+    "visibility": {
+      "title": "Visibility",
+      "type": "string",
+      "description": "Choose whether files are uploaded to the public IPFS network (accessible by anyone) or private network (only accessible via your Pinata gateway with signed URLs). Private files use time-limited signed URLs configured by the 'Private File Expiration' setting below.",
+      "default": "public",
+      "prefill": "public",
+      "enum": ["public", "private"],
+      "enumTitles": ["Public", "Private"],
+      "editor": "select"
+    },
+    "privateExpiration": {
+      "title": "Private File Expiration (seconds)",
+      "type": "integer",
+      "description": "⚠️ This setting ONLY applies when Visibility is set to 'Private'. Sets how long the signed URL for private files remains valid. Examples: 3600 = 1 hour, 86400 = 24 hours (default), 604800 = 7 days",
+      "prefill": 2592000,
+      "minimum": 60,
+      "maximum": 315569520,
+      "editor": "number",
+      "unit": "seconds",
+      "sectionCaption": "Advanced Settings",
+      "sectionDescription": "Additional configuration options for private file uploads"
+    }
+  },
+  "required": ["startUrls", "pinataApiKey"]
+}
