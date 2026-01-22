@@ -170,7 +170,7 @@ Your files are pinned to IPFS and accessible via:
 - **Public IPFS**: Any IPFS gateway can access your files using the CID
 - **Permanent**: Files remain accessible as long as they're pinned
 
-## DISCLAIMER
+## Disclaimer
 
 **IMPORTANT: Legal Responsibility and Content Ownership**
 
@@ -192,7 +192,11 @@ By using this app, you acknowledge and agree that:
 
 By proceeding to use this actor, you confirm that you have read, understood, and agree to these terms.
 
-## NEED HELP?
+## / Try it Out / Demo
+
+You can use the open source code to upload to your Apify account or use https://apify.com/onescales/upload-to-web3
+
+## Need Help?
 
 **Have Questions or Need Support?**
 
