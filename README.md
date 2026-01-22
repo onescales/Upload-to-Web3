@@ -121,16 +121,19 @@ This software is provided "as is" without warranties. Use at your own risk and e
   {
     "url": "https://example.com/document.pdf",
     "web3Url": "https://gateway.pinata.cloud/ipfs/QmX7K8bV9fGj3HnNJ5qP4rL2mD8wE1xA",
+    "cid": "QmX7K8bV9fGj3HnNJ5qP4rL2mD8wE1xA",
     "status": "success"
   },
   {
     "url": "https://example.com/images/photo.jpg",
     "web3Url": "https://gateway.pinata.cloud/ipfs/QmY8L9cW0hHk4IoOK6rQ5sN3nE2yB",
+    "cid": "QmX7K8bV9fGj3HnNJ5qP4rL2mD8wE1xA",
     "status": "success"
   },
   {
     "url": "https://example.com/missing-file.jpg",
     "web3Url": null,
+    "cid": null,
     "status": "Error - Failed to fetch file: 404 Not Found"
   }
 ]
