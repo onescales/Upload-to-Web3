@@ -10,6 +10,8 @@
 - **Direct URLs**: Get immediate IPFS gateway URLs for all pinned files
 - **Permanent Storage**: Files are permanently stored on the decentralized IPFS network
 
+[![Watch the video](https://img.youtube.com/vi/P0e-eD_dUTY/maxresdefault.jpg)](https://www.youtube.com/watch?v=P0e-eD_dUTY)
+
 ## Open Source
 
 This is an **open source project** released under the MIT License with Attribution. You're free to use, modify, and distribute this code for personal or commercial purposes. See the [LICENSE](https://github.com/onescales/Upload-to-Web3/blob/main/LICENSE) file for full details.
@@ -198,7 +200,7 @@ By proceeding to use this actor and/or the open source code, you confirm that yo
 
 ## / Try it Out / Demo
 
-You can use the open source code to upload to your Apify account or use [https://apify.com/onescales/upload-to-web3](https://apify.com/onescales/upload-to-web3?fpr=s9de8)
+You can use the open source code to upload to your Apify account or use https://apify.com/onescales/upload-to-web3
 
 ## Need Help?
 
