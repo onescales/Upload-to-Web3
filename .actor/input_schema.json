@@ -1,6 +1,6 @@
 {
   "title": "Upload to Web3 Input",
-  "description": "Specify a URL (image, file, PDF, etc.) and upload to IPFS (Web3) via the Pinata pinning service. You must have a Pinata account (https://pinata.cloud) and you need to get the API key at https://app.pinata.cloud/developers/api-keys",
+  "description": "Specify a URL (image, file, PDF, etc.) and upload to IPFS (Web3) via the Pinata pinning service.<br><br>See tutorial video: https://www.youtube.com/watch?v=P0e-eD_dUTY<br><br>You must have a Pinata account (https://pinata.cloud) and you need to get the API key at https://app.pinata.cloud/developers/api-keys",
   "type": "object",
   "schemaVersion": 1,
   "properties": {
