@@ -202,6 +202,8 @@ By proceeding to use this actor and/or the open source code, you confirm that yo
 
 You can use the open source code to upload to your Apify account or use https://apify.com/onescales/upload-to-web3
 
+See video walkthrough: https://www.youtube.com/watch?v=P0e-eD_dUTY
+
 ## Need Help?
 
 **Have Questions or Need Support?**
